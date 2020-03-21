@@ -21,7 +21,7 @@ for comment in comments: #for each comment in the comments stream. the current c
         #author was deleted
         continue
 
-    if text.lower() == "hoes mad" and author != "hoesmad345": #check to see the comment is "!lmgtfy". use if text.lower() == "!lmgtfy".lower() to be non-case sensitive, use if "!lmgtfy" in text if you want the comment to be anywhere
+    if "hoes mad" in text and author != "hoesmad345": #check to see the comment is "!lmgtfy". use if text.lower() == "!lmgtfy".lower() to be non-case sensitive, use if "!lmgtfy" in text if you want the comment to be anywhere
             # Generate a message
             print("Attempting Answer")
             message = "hoes mad"
