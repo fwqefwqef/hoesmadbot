@@ -1,2 +1,2 @@
 # hoesmadbot
-reddit bot that spams hoes mad
+reddit bot that spams text on selected subreddits
